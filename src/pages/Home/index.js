@@ -1,9 +1,10 @@
 import React from 'react';
-import HeaderComponent from '../../components/Header';
-import './styles.scss'
+import './styles.scss';
 const HomePage = () => (
 	<div className='home-page'>
-		<HeaderComponent />
+		<div className="content">
+			<h1><span className="accent">Hello</span>, meet Jean Luc</h1>
+		</div>
 	</div>
 );
 

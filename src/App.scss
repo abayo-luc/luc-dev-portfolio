@@ -1,0 +1,46 @@
+@font-face {
+	font-family: 'Great Vibes';
+	font-style: normal;
+	font-weight: 400;
+	src: url('./assets/fonts/GreatVibes.ttf');
+	src: local('Great Vibes'), local('GreatVibes'),
+		url('./assets/fonts/GreatVibes.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+body {
+	background-color: #011627;
+	color: #fff;
+	padding: 15px 15px 0px 30px;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+}
+
+.brand .initials {
+	font-family: 'Great Vibes';
+	font-size: calc(18px + 2vmin);
+	font-weight: 800;
+}
+
+.app {
+	background-image: url('./assets/luc-dev.png');
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-size: 75%;
+	height: calc(97vh + 10px);
+	.content {
+		height: 100%;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		background-color: rgba($color: #011627, $alpha: 0.5);
+		.footer {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: space-between;
+		}
+	}
+}

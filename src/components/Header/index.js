@@ -1,5 +1,5 @@
 import React from 'react';
-import Menu from '../assets/menu.svg';
+import Menu from '../../assets/menu.svg';
 import './header.scss';
 const HeaderComponent = () => {
 	return (
