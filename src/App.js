@@ -1,19 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import './App.scss';
+import HomePage from './pages/Home';
+import HeaderComponent from './components/Header'
+import FooterComponent from './components/Footer';
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-       <h1>Luc</h1>
-      </header>
-    </div>
-  );
+	return (
+		<div className='app'>
+			<div className="content">
+				<div className="header-nav">
+					<HeaderComponent/>
+				</div>
+				<HomePage />
+				<div className="footer">
+					<div className="copy-right">
+						<p>@Luc 2020</p>
+					</div>
+					<FooterComponent/>
+				</div>
+			</div>
+		</div>
+	);
 }
 
 export default App;

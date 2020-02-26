@@ -1,0 +1,23 @@
+.home-page {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	.content {
+		width: 50%;
+		margin-left: 8%;
+		justify-self: center;
+		background-color: transparent;
+		span.accent {
+			font-size: 6.5rem;
+			background: -webkit-radial-gradient(#f67c76, #f1558a, #c4439e);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+		h1 {
+			font-size: 6.5rem;
+			letter-spacing: -5.5px;
+			font-weight: 600;
+		}
+	}
+}
