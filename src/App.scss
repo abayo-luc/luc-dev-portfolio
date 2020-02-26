@@ -1,0 +1,118 @@
+@font-face {
+	font-family: 'Great Vibes';
+	font-style: normal;
+	font-weight: 400;
+	src: url('./assets/fonts/GreatVibes.ttf');
+	src: local('Great Vibes'), local('GreatVibes'),
+		url('./assets/fonts/GreatVibes.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+body {
+	background-color: #011627;
+	color: #fff;
+	padding: 15px 15px 0px 30px;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+}
+
+.brand .initials {
+	font-family: 'Great Vibes';
+	font-size: calc(18px + 2vmin);
+	font-weight: 800;
+}
+
+.app {
+	overflow: hidden;
+	height: calc(97vh + 10px);
+	.content {
+		height: 100%;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		background-color: rgba($color: #011627, $alpha: 0.5);
+		.footer {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: space-between;
+			z-index: 2;
+		}
+	}
+	.header-nav {
+		z-index: 300;
+	}
+	.page {
+		position: absolute;
+		height: 100%;
+		width: 96%;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: center;
+		background-color: #011627;
+		z-index: 1;
+	}
+}
+
+h1.page-title {
+	line-height: 1.33333em;
+	letter-spacing: -0.025px;
+	font-size: calc(26px + 2vmin);
+}
+
+div.col {
+	&-12 {
+		width: 100%;
+	}
+	&-11 {
+		width: 91.66%;
+	}
+	&-10 {
+		width: 83.33%;
+	}
+	&-8 {
+		width: 66.66%;
+	}
+	&-7 {
+		width: 58.33%;
+	}
+	&-6 {
+		width: 50%;
+	}
+	&-5 {
+		width: 41.66%;
+	}
+	&-4 {
+		width: 33.33%;
+	}
+	&-3 {
+		width: 25%;
+	}
+	&-2 {
+		width: 16.66%;
+	}
+}
+
+.bg-title {
+	color: #fff;
+	font-size: 5rem;
+	will-change: transform, opacity;
+	text-shadow: 0px 2px 40px #00000020, 0px 2px 5px #00000030;
+}
+
+.caption {
+	color: transparentize($color: #fff, $amount: 0.5);
+	font-weight: 400;
+	line-height: 1.1em;
+}
+
+.page-container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}

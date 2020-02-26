@@ -1,0 +1,51 @@
+.footer-component {
+	width: 90%;
+	margin-bottom: 15px;
+	ul.progress-bar {
+		counter-reset: step;
+		li {
+			list-style-type: none;
+			text-transform: uppercase;
+			width: 15%;
+			float: left;
+			position: relative;
+			text-align: center;
+			display: flex;
+			align-items: center;
+			flex-direction: row;
+			a {
+				text-decoration: none;
+				color: #fff;
+				font-size: calc(8px + 2vmin);
+				padding: 5px 10px;
+				border-radius: 10px;
+				background-color: transparentize($color: #ccc, $amount: 0.5);
+				width: 300px;
+			}
+			&:before {
+				width: 100%;
+				height: 5px;
+				content: '';
+				background-color: transparentize($color: #ccc, $amount: 0.5);
+				border-left: none;
+				border-right: none;
+				z-index: 1;
+			}
+			&:first-child:before {
+				background-color: transparent;
+			}
+		}
+		li.checked {
+			a {
+				background: #b21f66;
+				border: 1px solid transparent;
+			}
+			&:before {
+				background: #b21f66;
+			}
+			&:first-child:before {
+				background: none;
+			}
+		}
+	}
+}

@@ -1,0 +1,29 @@
+.header-component {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-size: calc(4px + 2vmin);
+	align-items: center;
+	.dev-info {
+		width: 40%;
+		justify-content: space-between;
+		align-items: center;
+	}
+	img.icon {
+		height: calc(8px + 2vmin);
+	}
+	.menu button {
+		border: none;
+		margin: 0;
+		cursor: pointer;
+		text-align: center;
+		background-color: transparent;
+		&:focus {
+			outline: 0.5px solid #fff;
+			outline-offset: 2px;
+		}
+	}
+	.separator {
+		color: rgba($color: #fff, $alpha: 0.5);
+	}
+}

@@ -1,0 +1,17 @@
+.about-page {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	p.dev-bio {
+		box-sizing: border-box;
+		font-size: calc(5px + 2vmin);
+		text-align: justify;
+		letter-spacing: 1.3px;
+	}
+	.specialization {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-end;
+	}
+}

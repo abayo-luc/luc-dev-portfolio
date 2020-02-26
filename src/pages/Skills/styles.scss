@@ -1,0 +1,39 @@
+.skills-page {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	.experience {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+		justify-content: center;
+		background: url('../../assets/confetti.png');
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 60%;
+		height: 100%;
+	}
+	.experience-counter {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		border: 1px solid #fff;
+		height: 50%;
+		width: 60%;
+		text-align: center;
+		background-color: transparentize($color: #011627, $amount: 0.5);
+	}
+	.skill {
+		margin: 15px 5px;
+	}
+	.progress-container {
+		background-color: #ccc;
+		width: 100%;
+		.progress {
+			height: 30px;
+			background-color: #b21f66;
+		}
+	}
+}

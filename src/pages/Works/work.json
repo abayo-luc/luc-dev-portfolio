@@ -1,0 +1,27 @@
+{
+	"works": [
+		{
+			"title": "Fullstack Developer",
+			"company": "Andela Rwanda",
+			"productName": "Converge Companion",
+			"description": "Recently I worked on a cross-platform mobile app ChatBot (Converge Companion)  which helps users to book meeting rooms and get direction directly from their phone.",
+			"accomplishments": [
+				"Converted different mockup designs into React Native components (IOS/Android)",
+				"Integrated both RESTful APIs and GraphQL APIs",
+				"I also interacted/integrated Dialog Flow which is an AI-based conversational API."
+			]
+		},
+		{
+			"title": "Mobile App Developer",
+			"company": "Limitless Apps",
+			"productName": "4xChange",
+			"description": "I worked as a Junior Software Developer at Limitless Apps Where I collaborated in the development of a mobile application which was targeting more than 50  forex traders and 1000 active users. I supported the technical design process, development, testing, and the technical analysis of application requirements."
+		},
+		{
+			"title": "Mobile App Developer",
+			"company": "Limitless Apps",
+			"productName": "4xChange",
+			"description": "I worked as a Junior Software Developer at Limitless Apps Where I collaborated in the development of a mobile application which was targeting more than 50  forex traders and 1000 active users. I supported the technical design process, development, testing, and the technical analysis of application requirements."
+		}
+	]
+}

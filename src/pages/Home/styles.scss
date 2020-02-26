@@ -1,0 +1,33 @@
+.home-page {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	width: 99%;
+	height: 99%;
+	overflow: hidden;
+	background-image: url('../../assets/luc-dev.png');
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 84.5%;
+	.content {
+		width: 30%;
+		margin-left: 8%;
+		display: flex;
+		justify-content: center;
+		background-color: transparent;
+		span.accent {
+			font-size: 6.5rem;
+			background: -webkit-radial-gradient(#f67c76, #f1558a, #c4439e);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+		h1 {
+			font-size: 6.5rem;
+			letter-spacing: -5.5px;
+			font-weight: 600;
+			will-change: transform, opacity;
+			text-shadow: 0px 2px 40px #00000020, 0px 2px 5px #00000030;
+		}
+	}
+}
